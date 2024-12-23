@@ -27,4 +27,5 @@ int main(int argc, char** argv) {
 
     cout << solution->hasDuplicate(nums) << endl;
 
+    delete solution;
 }
