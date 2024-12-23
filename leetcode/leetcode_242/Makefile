@@ -1,6 +1,6 @@
-BIN=Solution
+BIN=Solution1
 all:
 	g++ $(BIN).cpp -o $(BIN)
 	./$(BIN)
 clean:
-	rm *.o $(BIN)
+	rm -f *.o $(BIN)
