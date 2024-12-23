@@ -21,4 +21,5 @@ int main() {
     s = "car";
     t = "cat";
     cout << solution->isAnagram(s, t) << endl;
+    delete solution;
 }
