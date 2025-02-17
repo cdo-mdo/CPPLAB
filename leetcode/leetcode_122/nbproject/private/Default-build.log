@@ -1,0 +1,6 @@
+g++ Solution.cpp -o Solution
+./Solution
+7
+valgrind --leak-check=full ./Solution
+make: valgrind: No such file or directory
+make: *** [Makefile:5: all] Error 127
